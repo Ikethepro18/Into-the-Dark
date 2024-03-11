@@ -3,15 +3,16 @@
 	"id": "itd",
 	"version": "${version}",
 	"name": "Into the Dark",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adding planets, moons and more to a voxel game near you",
 	"authors": [
-		"Me!"
+		"Ikethepro18"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/into-the-dark",
+		"sources": "https://github.com/Ikethepro18/into-the-dark",
+		"issues": "https://github.com/Ikethepro18/into-the-dark/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "CC-BY-SA-4.0",
 	"icon": "assets/itd/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -31,11 +32,11 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.20.1",
+		"minecraft": "=1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"ait": "*"
 	}
 }
