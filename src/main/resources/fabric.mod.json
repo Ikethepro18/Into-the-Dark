@@ -19,6 +19,9 @@
 		"main": [
 			"ike.itd.IntoTheDark"
 		],
+		"fabric-datagen": [
+			"ike.itd.IntoTheDarkDataGenerator"
+		],
 		"client": [
 			"ike.itd.IntoTheDarkClient"
 		]
