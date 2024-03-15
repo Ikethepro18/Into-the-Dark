@@ -1,5 +1,7 @@
 package ike.itd;
 
+import ike.itd.item.ModItemGroups;
+import ike.itd.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,9 @@ public class IntoTheDark implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Loading Into The Dark... It's cold here");
+		LOGGER.info("Loading Into the Dark...");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		LOGGER.info("Into the Dark has loaded, I think");
 	}
 }
