@@ -1,6 +1,7 @@
 package ike.itd.item;
 
 import ike.itd.IntoTheDark;
+import ike.itd.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -22,6 +23,8 @@ public class ModItemGroups {
                         // List the items in the tab group
                         // You can use Items.{vanilla item} to add vanilla items to the group, if you see fit
                         // Remember, the first thing listed is the first thing in the group
+                        entries.add(ModItems.CHEESE);
+                        entries.add(ModBlocks.MOON_DUST_BLOCK);
                         entries.add(ModItems.MOON_DUST);
 
                     }).build());

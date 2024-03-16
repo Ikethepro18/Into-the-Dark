@@ -1,5 +1,8 @@
 {
   "item.itd.moon_dust": "Moon Dust",
+  "item.itd.cheese": "Cheese",
+
+  "block.itd.moon_dust_block": "Block of Moon Dust",
 
   "itemgroup.itd": "Into the Dark"
 }
