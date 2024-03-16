@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "intothedark:block/moon_dust_block"
+      "model": "itd:block/moon_dust_block"
     }
   }
 }
