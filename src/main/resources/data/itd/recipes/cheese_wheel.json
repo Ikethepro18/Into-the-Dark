@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " ~ ",
+    "~#~",
+    " ~ "
+  ],
+  "key": {
+    "#": {
+      "item": "itd:cheese"
+    },
+    "~": {
+      "item": "minecraft:honeycomb"
+    }
+
+  },
+  "result": {
+    "item": "itd:cheese_wheel",
+    "count": 1
+  }
+}

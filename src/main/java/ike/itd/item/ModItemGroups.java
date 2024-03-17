@@ -24,8 +24,9 @@ public class ModItemGroups {
                         // You can use Items.{vanilla item} to add vanilla items to the group, if you see fit
                         // Remember, the first thing listed is the first thing in the group
                         entries.add(ModItems.CHEESE);
-                        entries.add(ModBlocks.MOON_DUST_BLOCK);
+                        entries.add(ModBlocks.CHEESE_WHEEL);
                         entries.add(ModItems.MOON_DUST);
+                        entries.add(ModBlocks.MOON_DUST_BLOCK);
 
                     }).build());
 

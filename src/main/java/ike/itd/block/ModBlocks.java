@@ -15,6 +15,9 @@ public class ModBlocks {
     public static final Block MOON_DUST_BLOCK = registerBlock("moon_dust_block",
             new Block(FabricBlockSettings.copyOf(Blocks.CLAY)));
 
+    public static final Block CHEESE_WHEEL = registerBlock("cheese_wheel",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUSHROOM_STEM)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(IntoTheDark.MOD_ID, name), block);
