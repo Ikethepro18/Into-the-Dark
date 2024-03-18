@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 // Adding a new item is as simple as ctrl + c, ctrl + v and then ctrl + h
 public class ModItems {
     public static final Item MOON_DUST = registerItem("moon_dust", new Item(new FabricItemSettings()));
-    public static final Item CHEESE = registerItem("cheese", new Item(new FabricItemSettings()));
+    public static final Item CHEESE = registerItem("cheese", new Item(new FabricItemSettings().food(ModFoodComponents.CHEESE)));
 
     // Creates the format for the above to follow
     // I think
