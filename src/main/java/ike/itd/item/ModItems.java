@@ -2,7 +2,10 @@ package ike.itd.item;
 
 import ike.itd.IntoTheDark;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -12,6 +15,10 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item MOON_DUST = registerItem("moon_dust", new Item(new FabricItemSettings()));
     public static final Item CHEESE = registerItem("cheese", new Item(new FabricItemSettings().food(ModFoodComponents.CHEESE)));
+
+    private static void addItemsToFoodAndDrinkTabGroup(FabricItemGroupEntries entries) {
+        entries.add(CHEESE);
+    }
 
     // Creates the format for the above to follow
     // I think
@@ -24,5 +31,7 @@ public class ModItems {
     public static void registerModItems() {
         // Logs in the console that items are being registered
         IntoTheDark.LOGGER.info("Registering Items...");
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodAndDrinkTabGroup);
     }
 }
