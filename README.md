@@ -1,6 +1,6 @@
-![Latest Release](https://img.shields.io/modrinth/v/into-the-dark?&label=Latest%20Version&link=https%3A%2F%2Fmodrinth.com%2Fmod%2Finto-the-dark%2Fversions
-)
 ![Minecraft Version](https://img.shields.io/modrinth/game-versions/into-the-dark?link=https%3A%2F%2Fmodrinth.com%2Fmod%2Fait%2Fversions&label=Minecraft%20Version)
+![Latest Release](https://img.shields.io/modrinth/v/into-the-dark?&label=Latest%20Version&link=https%3A%2F%2Fmodrinth.com%2Fmod%2Finto-the-dark%2Fversions)
+![Latest Github Commit](https://img.shields.io/github/last-commit/Ikethepro18/Into-the-Dark?logo=Github&label=Latest%20Commit)
 ![Modrinth Download Count](https://img.shields.io/modrinth/dt/into-the-dark?logo=modrinth&link=https%3A%2F%2Fmodrinth.com%2Fmod%2Fait&label=Downloads)
 
 # What Is This?
