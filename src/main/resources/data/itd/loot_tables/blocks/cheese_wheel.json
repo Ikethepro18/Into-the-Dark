@@ -5,25 +5,20 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "name": "itd:cheese_wheel",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "itd:cheese_wheel"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch"
+              }
+            ]
+          }
         }
       ]
     },
@@ -33,6 +28,21 @@
         {
           "type": "minecraft:item",
           "name": "itd:cheese"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
         }
       ]
     },
@@ -48,6 +58,21 @@
               "chance": 0.5
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
         }
       ]
     }

@@ -4,7 +4,6 @@ import ike.itd.block.ModBlocks;
 import ike.itd.item.ModItemGroups;
 import ike.itd.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

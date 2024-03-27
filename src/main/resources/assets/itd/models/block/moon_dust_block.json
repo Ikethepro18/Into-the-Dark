@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "itd:block/moon_dust_block"
-  }
-}

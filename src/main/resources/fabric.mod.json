@@ -22,9 +22,6 @@
 		"fabric-datagen": [
 			"ike.itd.IntoTheDarkDataGenerator"
 		],
-		"client": [
-			"ike.itd.IntoTheDarkClient"
-		],
 		"rei_client": [
 			"ike.itd.compat.IntoTheDarkREIClientPlugin"
 		]
