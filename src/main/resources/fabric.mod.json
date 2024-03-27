@@ -27,11 +27,7 @@
 		]
 	},
 	"mixins": [
-		"itd.mixins.json",
-		{
-			"config": "itd.client.mixins.json",
-			"environment": "client"
-		}
+		"itd.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",
